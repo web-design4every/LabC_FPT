@@ -1,0 +1,8 @@
+char key;
+    do{
+        printf("Press ESC to quit, enter to continue..");
+        key=getchar();
+        fpurge(stdin);
+        if(key==27)break;
+    }while(1);
+    return 0;
